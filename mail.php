@@ -29,14 +29,14 @@ $query = mysqli_query($conn, $sql);
 	$mail->SMTPSecure = 'ssl';   // secure transfer enabled REQUIRED for GMail
         $mail->Host = 'smtp.gmail.com';
         $mail->Port = 465;  
-	$mail->Username = "metarays.getahead@gmail.com";  
-	$mail->Password = "Getahead@123098";           
+	$mail->Username = "example@gmail.com";  
+	$mail->Password = "password";           
 	$mail->SetFrom($email, $username);
 	$mail->AddAddress($email);
         $mail->IsHTML(true);
- 	$mail->Subject = 'Inforoads Invoice'; 
+ 	$mail->Subject = 'Mail subject'; 
 
-	$body = '<table> Hi '.$username.', <br><br><br>Thanks for writing to us! <br><br><br> We have paid for '.$articles.' articles in '.date('M Y').' and the rest of the articles will be carried forward for next month.<br><br><br>Please raise an invoice for it.<br><br><br>Regards,<br><br><br>Nikitha</table>';
+	$body = '<table> Hi '.$username.', <br><br><br>Thanks for writing to us! <br><br><br> We have paid for '.$articles.' articles in '.date('M Y').' and the rest of the articles will be carried forward for next month.<br><br><br>Please raise an invoice for it.<br><br><br>Regards,<br><br><br>hi</table>';
 
 
         $mail->MsgHtml($body);

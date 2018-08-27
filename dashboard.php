@@ -5,7 +5,7 @@ session_start();
 ?>
 <html >
 <head>
-<title>Inforoads Article Writers Details</title>
+<title>user Details</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Include Bootstrap CSS -->
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -27,7 +27,7 @@ if(isset($_SESSION["name"])) {
 <!-- Form used to add new entries of employee in database -->
 <form class="form-horizontal alert alert-warning" name="" id="" method="post" action="upload.php" enctype="multipart/form-data">
 
-	<h3 class="text-center">Insert Inforoads Writers Details </h3>
+	<h3 class="text-center">Insert user Details </h3>
 	<div class="form-group">
 		<label for="Name">Insert File:</label>
 		<input type="file" name="file" id="file" class="form-control" placeholder="Upload File like csv,xslx,xsl"  autofocus required />

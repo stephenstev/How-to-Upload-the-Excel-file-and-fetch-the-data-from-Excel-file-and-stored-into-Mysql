@@ -3,6 +3,6 @@ How to upload the Excel file and fetch the data from excel file  and stored into
 
  Hi everyone,
  
-   Here you can see the how to fetch the data from Excel(CSV,XLX,XSLX) file and store into mysql database and also send the Bulk mail to users.
+   Here you can see the how to fetch the data from Excel(CSV,XLX,XSLX) file and store into mysql database and also send the mail to users.
  
     
